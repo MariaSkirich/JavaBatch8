@@ -3,6 +3,9 @@ package com.syntax.class08;
 public class ForLoop {
 
 	public static void main(String[] args) {
+		
+		//for loop is used when we know how many times we need to perform the code
+		
 		//I want to say "Good Morning" 5 times
 
 		//for (initialize; state condition; mention increment or decrement) {write code in here} 
@@ -34,7 +37,7 @@ public class ForLoop {
 		for (int d=0; d<=30; d+=3) {
 			System.out.println(d);
 		}
-		
+		//we got printed all numbers divisible by 3
 		
 	}
 
