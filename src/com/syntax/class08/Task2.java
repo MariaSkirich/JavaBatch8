@@ -12,9 +12,9 @@ public class Task2 {
 		
 		for (int a = 1; a <= 50; a++) {
 			if (a % 2 == 0) {
-				sumEven = sumEven + a;
+				sumEven += a;
 			} else {
-				sumOdd = sumOdd + a;
+				sumOdd += a;
 			}
 		}
 		System.out.println("The sum of all even numbers is "+sumEven);

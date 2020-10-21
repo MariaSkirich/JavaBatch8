@@ -15,20 +15,20 @@ public class TaskShopping {
 		Scanner scan = new Scanner(System.in);
 		String item;
 		double price, money, change;
+		boolean shopping;
+		shopping=true;
 
-		System.out.println("Please, enter what item you're buying");
+		System.out.println("Please, enter what item you're buying and the price");
 
 		item = scan.next();
-
-		System.out.println("Please, enter the price");
 		price = scan.nextDouble();
-
+		
 		System.out.println("Please, pay for your item");
 		money = scan.nextDouble();
 
-		while (true) {
+		while (shopping) {
 			if (price>money) {
-				price = price - money;
+				price -=money;
 				System.out.println("Please add " + price);
 			} else if (money > price) {
 				change = money - price;
