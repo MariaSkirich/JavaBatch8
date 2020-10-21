@@ -16,7 +16,7 @@ public class PrintingPatterns {
 		// ******
 
 		for (int r = 1; r <= 6; r++) { // outer loop controls rows
-			for (int c = 1; c <= 12; c++) {// inner loop controls columns
+			for (int c = 1; c <= 6; c++) {// inner loop controls columns
 				System.out.print("*");
 			}
 			System.out.println();
@@ -40,12 +40,13 @@ public class PrintingPatterns {
 		}
 		System.out.println("-----------ANOTHER PATTERN------------");
 
-		for (int r = 1; r <=5; r++) {
-			for (int c = 7; c >=1; c--) {
+		for (int r = 1; r <= 5; r++) {
+			for (int c = 7; c >= 1; c--) {
 				System.out.print(c);
 			}
 			System.out.println();
 		}
+		
+	
 	}
-
 }
