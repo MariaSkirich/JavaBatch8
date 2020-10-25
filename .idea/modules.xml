@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BrainyBunch(local)/BrainyBunch(local).iml" filepath="$PROJECT_DIR$/../BrainyBunch(local)/BrainyBunch(local).iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBatch8.iml" filepath="$PROJECT_DIR$/JavaBatch8.iml" />
     </modules>
   </component>

@@ -27,10 +27,10 @@ public class Task2 {
 		
 		
 		for (String[] carArray:cars) {//looking at single arrays in a 2D array
-			for (String car:carArray) //looking at elements in the arrays
+			for (String car:carArray) { //looking at elements in the arrays
 			System.out.print(car+"   ");
 			}
 		System.out.println();
 	}
-
+	}
 }
