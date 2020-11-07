@@ -10,7 +10,7 @@ public class Dog {
     int age;
     String name;
 
-    void bark() {
+    public void bark() {
         System.out.println("Dog barks");
     }
 
