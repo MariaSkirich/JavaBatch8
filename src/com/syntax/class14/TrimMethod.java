@@ -2,7 +2,7 @@ package com.syntax.class14;
 
 public class TrimMethod {
     public static void main(String[] args) {
-        String var="    Moneer confused    ";
-        System.out.println(var.trim());
+        String str_Sample = "RockStar";
+        System.out.println("EndsWith character 'r': " + str_Sample.endsWith("r"));
     }
 }
