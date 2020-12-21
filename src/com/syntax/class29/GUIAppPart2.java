@@ -37,6 +37,6 @@ public class GUIAppPart2 extends Application implements EventHandler<ActionEvent
 
     @Override
     public void handle(ActionEvent event) {
-        
+
     }
 }
